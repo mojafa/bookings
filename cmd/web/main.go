@@ -5,12 +5,17 @@ import (
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/alexedwards/scs/v2"
+	"github.com/bookings/pkg/config"
+	"github.com/bookings/pkg/handlers"
+	"github.com/bookings/pkg/render"
 )
 
 const portNumber = "8080"
 
 var app config.AppConfig
-var sesion *scs.SessiionManager
+var sesion *scs.SessionManager
 
 func main() {
 	// change this to true when in production
