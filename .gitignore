@@ -8,3 +8,5 @@ run.bat
 database.yml
 schema.sql
 db-data
+/data_pgadmin
+/db-data
