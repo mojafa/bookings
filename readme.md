@@ -4,7 +4,7 @@
 This is the repository for my bookings and reservations project, which is part of 
 the Udemy course [Building modern web applications in Go](https://www.udemy.com/course/building-modern-web-applications-with-go/?referralCode=0415FB906223F10C6800).
 
-- Built in Go version 1.17.x
+- Built in Go version 1.21.0
   
 Dependencies:
 
@@ -25,7 +25,7 @@ execute this command:
 ```
 go build -o bookings ./cmd/web/ && ./bookings \
 -dbname=bookings \
--dbuser=tcs
+-dbuser=ghost
 ```
 where you have the correct entires for your database name (dbName) 
 and database user (dbUser)
